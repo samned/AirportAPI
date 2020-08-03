@@ -1,3 +1,4 @@
+
 module.exports = {
   'Booking': require('./Booking'),
   'Passenger': require('./Passenger'),
