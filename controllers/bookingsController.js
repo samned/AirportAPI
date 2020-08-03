@@ -8,7 +8,7 @@ const { Booking } = require('../models');const BookingsController = {
   async show(req, res){
     const booking = await Booking
        .findById(req.params.id)
-       .populate(‘bookings’);
+       .populate('bookings');
     res.send(booking);
   }
 };module.exports = BookingsController;
